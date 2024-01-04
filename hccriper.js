@@ -51,8 +51,8 @@ for (var i=0; i <tablex.length;i++)
 var writedata = result.join('\n');
 console.log(writedata);
 }
+
 function action()
 {
-  minner();
-  canopen();
+    canopen(); minner();
 }
